@@ -1,0 +1,157 @@
+/* ===================== VARIABEL WARNA ===================== */
+:root {
+  --gfw-green: #4C6C29;
+  --gfw-dark-green: #658022;
+  --gfw-cream: #F6F6F4;
+  --gfw-neutral: #FFFFFF;
+}
+
+/* ===================== FONT & DASAR ===================== */
+body, .content-wrapper, .main-header .logo, .main-header .navbar, 
+.main-sidebar, .box, .box-header, .small-box, 
+h1, h2, h3, h4, h5, h6, label, input, select, button {
+  font-family: 'Poppins', sans-serif !important;
+}
+
+/* ===================== HEADER ===================== */
+.main-header .navbar,
+.main-header .logo {
+  background-color: var(--gfw-green) !important;
+  color: var(--gfw-neutral) !important;
+  font-size: 18px !important;
+  font-weight: bold;
+}
+.main-header .navbar .sidebar-toggle:hover {
+  background-color: #4d7d50 !important;
+}
+
+/* ===================== SIDEBAR ===================== */
+.main-sidebar {
+  background-color: var(--gfw-green) !important;
+}
+.sidebar-menu > li > a,
+.sidebar-menu .treeview-menu > li > a {
+  font-size: 13px !important;
+  font-weight: 500;
+  color: var(--gfw-neutral) !important;
+}
+.sidebar-menu > li.active > a,
+.sidebar-menu > li:hover > a,
+.sidebar-menu .treeview-menu > li:hover > a,
+.sidebar-menu .treeview-menu > li.active > a {
+  background-color: var(--gfw-dark-green) !important;
+  color: var(--gfw-neutral) !important;
+}
+
+/* ===================== BOX ===================== */
+.box {
+  background-color: var(--gfw-cream) !important;
+  border: none !important;
+  border-radius: 6px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+.box.box-solid > .box-header {
+  background-color: var(--gfw-dark-green) !important;
+  color: var(--gfw-neutral) !important;
+  padding: 10px;
+  border-radius: 6px 6px 0 0;
+}
+.box-title {
+  font-size: 15px !important;
+  font-weight: 600;
+}
+
+/* ===================== VALUE BOX ===================== */
+.small-box {
+  background-color: var(--gfw-cream) !important;
+  color: #333 !important;
+  border-radius: 6px;
+  height: 120px !important;
+  border-left: 4px solid var(--gfw-green);
+}
+.small-box .inner h3 {
+  font-size: 22px !important;
+  font-weight: bold;
+}
+.small-box .inner p {
+  font-size: 14px !important;
+}
+
+/* ===================== BUTTON ===================== */
+.btn, .btn-default, .btn-primary {
+  background-color: var(--gfw-green) !important;
+  color: var(--gfw-neutral) !important;
+  border: none !important;
+  font-weight: 500;
+}
+.btn:hover {
+  background-color: var(--gfw-dark-green) !important;
+}
+
+/* ===================== FORM ===================== */
+.form-control, .selectize-input {
+  border: 1px solid #ccc !important;
+  border-radius: 4px;
+  font-size: 14px !important;
+}
+
+/* ===================== TABEL ===================== */
+table.dataTable {
+  background-color: var(--gfw-neutral) !important;
+  font-size: 13px;
+}
+.dataTables_wrapper .dataTables_length,
+.dataTables_wrapper .dataTables_filter,
+.dataTables_wrapper .dataTables_info,
+.dataTables_wrapper .dataTables_paginate {
+  color: #444;
+}
+
+/* ===================== TEKS PREDIKSI ===================== */
+.prediksi-text {
+  font-size: 14px;
+  font-weight: 600;
+  color: #333;
+  padding-top: 16px;
+}
+
+/* ===================== TABS ===================== */
+.nav-tabs > li > a {
+  color: black !important;
+  font-weight: bold !important;
+}
+.nav-tabs > li > a:hover,
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:focus,
+.nav-tabs > li.active > a:hover {
+  border-bottom: 3px solid #1b5e20 !important;
+  background-color: transparent !important;
+  color: black !important;
+}
+.tab-content {
+  background-color: var(--gfw-cream) !important;
+  padding: 25px;
+  border-radius: 8px;
+}
+
+/* ===== Submenu (Treeview) ===== */
+.sidebar-menu .treeview-menu > li > a {
+  background-color: #3e5d28 !important;
+  color: #ffffff !important;
+  padding-left: 25px !important;
+  font-weight: 400;
+  transition: background-color 0.3s ease;
+}
+.sidebar-menu .treeview-menu > li > a:hover {
+  background-color: #6c8d3b !important;
+  color: #fff !important;
+}
+.sidebar-menu .treeview-menu > li.active > a {
+  background-color: #5f7834!important;
+  color: #fff !important;
+}
+
+
+.help-block {
+  text-align: justify;
+}
